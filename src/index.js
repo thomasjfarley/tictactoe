@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import Game from './game';
 
-function Square(props) {
+/*function Square(props) {
     return (
         <button className="square" onClick={props.onClick}>
             {props.value}
@@ -142,3 +143,5 @@ function calculateWinner(squares) {
     }
     return null;
 }
+*/
+ReactDOM.render(<Game />, document.getElementById("root"));
